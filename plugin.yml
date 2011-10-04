@@ -1,0 +1,14 @@
+name: BuriedTreasure
+main: net.fenixazul.bt.BuriedTreasure
+version: 0.1
+commands:
+  bt:
+    description: Buried Treasure command
+    usage: /bt help
+permissions:
+    bt.play:
+        description: Allows players to play game.
+        default: true
+    bt.admin:
+        description: Admin commands & Allows to use the wand.
+        default: op
